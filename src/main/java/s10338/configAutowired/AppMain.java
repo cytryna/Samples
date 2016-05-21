@@ -1,4 +1,4 @@
-package s10338;
+package s10338.configAutowired;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

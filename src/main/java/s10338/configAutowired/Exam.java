@@ -1,4 +1,4 @@
-package s10338;
+package s10338.configAutowired;
 
 public interface Exam {
   void pass();
