@@ -7,9 +7,4 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan
 public class AppConfig {
-
-    @Autowired
-    private Student student;
-
-
 }

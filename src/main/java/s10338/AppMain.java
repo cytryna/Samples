@@ -6,7 +6,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class AppMain {
     public static void main(String[] args) {
         ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfig.class);
-        Student fooService = ctx.getBean(Student.class);
-        fooService.pass();
+        Student student = ctx.getBean(Student.class);
+        student.pass();
     }
 }
