@@ -13,7 +13,7 @@ public class AppConfig {
     }
 
     @Bean
-    public Person cdPlayer(Exam exam) {
+    public Person radek(Exam exam) {
         return new Student(exam);
     }
 }

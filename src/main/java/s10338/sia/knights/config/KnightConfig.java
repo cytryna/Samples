@@ -2,10 +2,10 @@ package s10338.sia.knights.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import sia.knights.BraveKnight;
-import sia.knights.Knight;
-import sia.knights.Quest;
-import sia.knights.SlayDragonQuest;
+import s10338.sia.knights.BraveKnight;
+import s10338.sia.knights.Knight;
+import s10338.sia.knights.Quest;
+import s10338.sia.knights.SlayDragonQuest;
 
 @Configuration
 public class KnightConfig {
