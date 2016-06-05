@@ -7,7 +7,7 @@
         <property name="name" value="Radek Wichrowski"/>
     </bean>
 
-    <bean id="somethingBeforeMethod" class="s10338.aop.SomethingBeforeMethod" />
+    <bean id="somethingBeforeMethod" class="s10338.aop.SomethingBeforeAdvice" />
 
     <bean id="customerServiceProxy"
           class="org.springframework.aop.framework.ProxyFactoryBean">

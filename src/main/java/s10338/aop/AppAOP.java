@@ -14,6 +14,5 @@ public class AppAOP {
         System.out.println("*************************");
         cust.printName();
         System.out.println("*************************");
-
     }
 }
